@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="scr/css/project.css">
+	<title>Tr1ckSy Projects</title>
+</head>
+<body>
+	<main>
+			<div class="title">
+		<pre>
+ __  __                         _           _       
+|  \/  |_   _   _ __  _ __ ___ (_) ___  ___| |_ ___ 
+| |\/| | | | | | '_ \| '__/ _ \| |/ _ \/ __| __/ __|
+| |  | | |_| | | |_) | | | (_) | |  __/ (__| |_\__ \
+|_|  |_|\__, | | .__/|_|  \___// |\___|\___|\__|___/
+        |___/  |_|           |__/                   
+
+		</pre>
+	</div>
+	  <div class="container-projetos">
+         
+                <ul id="ul2"></ul>
+
+	</main>
+
+                <script>
+                const ul = document.querySelector('#ul2')
+
+                function getApiGitHub() {
+                    fetch('https://api.github.com/users/Tr1ckSy/repos')
+                        .then(async res => {
+
+                            if (!res.ok) {
+                                throw new Error(res.status)
+                            }
+
+                            var data = await res.json()
+
+                            data.map(item => {
+                                let li = document.createElement('li')
+
+let url = item.has_pages ? `https://saint-dev.github.io/${item.name}` : item.html_url 
+li.innerHTML = `
+       
+        <a href="${url}" target="_blank"> <h2>${item.name.toUpperCase()}</h2></a>
+      `
+                                ul.appendChild(li)
+
+                            })
+
+                        }).catch(e => console.log(e))
+                }
+
+                getApiGitHub()
+
+
+                </script> 
+</body>
+</html>

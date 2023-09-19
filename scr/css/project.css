@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	gap: 10px;
+	flex-direction: column;
+
+}
+h1,
+p{
+	color: green;
+}
+.container-projetos {
+	width: 70%;
+	margin: 0 auto;
+}
+a {
+	color: #fff;
+}
+pre {
+	color: red;
+}
+#ul2 {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	text-align: center;
+
+	flex-wrap: wrap;
+}
+
+main {
+	text-align: center;
+	margin: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	flex-direction: column;
+}
