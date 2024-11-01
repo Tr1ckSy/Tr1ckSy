@@ -3,7 +3,7 @@
 
 ### Olá, meu nome é Tr1ckSy!
 
-<img src="https://img.shields.io/static/v1?label=Overview&message=SEUNOME&color=f8efd4&style=for-the-badge&logo=GitHub" alt="Static GitHub">
+<img src="https://img.shields.io/static/v1?label=Overview&message=Tr1ckSy&color=f8efd4&style=for-the-badge&logo=GitHub" alt="Static GitHub">
 
 <p>Sou programador front end<br/> Trabalho em varios projetos</p>
 <div align="left">
