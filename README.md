@@ -1,11 +1,9 @@
 
 <img align='right' src="https://github-readme-stats.vercel.app/api?username=iuricode&show_icons=true&title_color=783c00&text_color=af552e&icon_color=783c00&bg_color=f8efd4&cache_seconds=2300" alt="ilustração do status do github">
 
-### Olá, meu nome é Tr1ckSy!
-
+### Hii, My name is Tr1ckSy!
 <img src="https://img.shields.io/static/v1?label=Overview&message=Tr1ckSy&color=f8efd4&style=for-the-badge&logo=GitHub" alt="Static GitHub">
-
-<p>Sou programador front end<br/> Trabalho em varios projetos</p>
+<p>I'm a front-end programmer, langs:</p>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo"  />
   <img width="12" />
