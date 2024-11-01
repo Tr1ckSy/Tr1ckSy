@@ -6,8 +6,6 @@
 <img src="https://img.shields.io/static/v1?label=Overview&message=SEUNOME&color=f8efd4&style=for-the-badge&logo=GitHub" alt="Static GitHub">
 
 <p>Sou programador front end<br/> Trabalho em varios projetos</p>
-<br>
-<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo"  />
   <img width="12" />
@@ -22,9 +20,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
 </div>
 
-###
-<br clear="both">
 
-<img src="https://raw.githubusercontent.com/Tr1ckSy/Tr1ckSy/output/snake.svg" alt="Snake animation" />
 
-###
+
